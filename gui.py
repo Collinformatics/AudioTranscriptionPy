@@ -155,7 +155,7 @@ class ApplicationInterface(QMainWindow):
         else:
             self.messages += '\n' + text
         print(f'Message: {self.counts}\n'
-              f'     {self.messages}\n')
+              f'{self.messages}\n')
         self.message.setText(self.messages)
 
 
