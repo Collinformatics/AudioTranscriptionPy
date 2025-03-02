@@ -1,10 +1,21 @@
-Modules
--
+# Requirements:
 
-pip install deepmultilingualpunctuation
+If you have an NVIDIA GPU install:
 
-pip install SpeechRecognition
+- NVIDIA (R) Cuda compiler driver V12.5.40
 
-pip install PyAudio
+- NVIDIA cuDNN V12.5
 
-To download CUDA: https://developer.nvidia.com/rdp/cudnn-archive
+Modules:
+
+    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+    pip install deepmultilingualpunctuation
+
+    pip install faster-whisper
+
+    pip install PyAudio
+
+    pip install soundfile
+
+    pip install SpeechRecognition
