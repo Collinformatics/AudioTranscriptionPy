@@ -34,6 +34,6 @@ Run test.py to evaluate:
 
 # Running The Program:
 
-The program will save your transcribed messages in the 'logs" folder
+The program will save your transcribed messages in the "logs" folder
 
 - Open "log.txt" to view and edit the text
