@@ -36,4 +36,4 @@ Run test.py to evaluate:
 
 Recorded Messages:
 
-- Recorded text can be found in the logs folder
+- Recorded text can be found in the "logs" folder
