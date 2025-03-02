@@ -31,3 +31,9 @@ Run test.py to evaluate:
 - GPU Usage
 
     - Only relevant if your computer has an NVIDIA graphics card
+
+# Running Program:
+
+Recorded Messages:
+
+- Recorded text can be found in the logs folder
