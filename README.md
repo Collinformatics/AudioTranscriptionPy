@@ -32,8 +32,8 @@ Run test.py to evaluate:
 
     - Only relevant if your computer has an NVIDIA graphics card
 
-# Running Program:
+# Running The Program:
 
-Recorded Messages:
+- The program will save your transcribed messages in the 'logs" folder
 
-- Recorded text can be found in the "logs" folder
+  - Open "log.txt" to view and edit the text
