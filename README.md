@@ -6,6 +6,8 @@ If you have an NVIDIA GPU install:
 
 - NVIDIA cuDNN V12.5
 
+# Installing Program:
+
 Modules:
 
     pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
@@ -19,3 +21,18 @@ Modules:
     pip install soundfile
 
     pip install SpeechRecognition
+
+# Testing installation:
+
+Testing Python Interpreter:
+
+Follow the folders in your IDE to:
+
+AudioTranscription\src\main\python\test.py
+Run test.py to evaluate:
+
+If the Python interpreter was setup correctly
+
+GPU Usage
+
+Only relevant if your computer has an NVIDIA graphics card
