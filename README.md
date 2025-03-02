@@ -24,15 +24,10 @@ Modules:
 
 # Testing installation:
 
-Testing Python Interpreter:
+- Run test.py to evaluate:
 
-Follow the folders in your IDE to:
+    - If the Python interpreter was setup correctly
 
-AudioTranscription\src\main\python\test.py
-Run test.py to evaluate:
+    - GPU Usage
 
-If the Python interpreter was setup correctly
-
-GPU Usage
-
-Only relevant if your computer has an NVIDIA graphics card
+        - Only relevant if your computer has an NVIDIA graphics card
