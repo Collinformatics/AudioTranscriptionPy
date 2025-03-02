@@ -24,10 +24,10 @@ Modules:
 
 # Testing installation:
 
-- Run test.py to evaluate:
+Run test.py to evaluate:
 
-    - If the Python interpreter was setup correctly
+- If the Python interpreter was setup correctly
 
-    - GPU Usage
+- GPU Usage
 
-        - Only relevant if your computer has an NVIDIA graphics card
+    - Only relevant if your computer has an NVIDIA graphics card
