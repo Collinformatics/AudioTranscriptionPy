@@ -19,7 +19,7 @@ def logConversation(pathDirectory, messages):
             message = textwrap.fill(message,
                                     width=consoleWidth,
                                     subsequent_indent="     ")
-            print(f'     {message}\n')
+            print(f'- {message}\n')
 
     # Make the directory
     if not os.path.exists(pathDirectory):
