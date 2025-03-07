@@ -10,7 +10,7 @@ If you have an NVIDIA GPU install:
 
 Modules:
 
-- For MacOS or if your computer does not have an NVIDIA GPU:
+- For MacOS, or if your computer does not have an NVIDIA GPU:
 
         pip install torch torchvision torchaudio
 
