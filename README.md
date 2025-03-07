@@ -10,17 +10,25 @@ If you have an NVIDIA GPU install:
 
 Modules:
 
-    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+- For MacOS or if your computer does not have an NVIDIA GPU:
 
-    pip install deepmultilingualpunctuation
+        pip install torch torchvision torchaudio
 
-    pip install faster-whisper
+- If your computer has an NVIDIA GPU:
 
-    pip install PyAudio
+        pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 
-    pip install soundfile
+- Install the remaining modules:
 
-    pip install SpeechRecognition
+        pip install deepmultilingualpunctuation
+    
+        pip install faster-whisper
+    
+        pip install PyAudio
+    
+        pip install soundfile
+    
+        pip install SpeechRecognition
 
 # Testing installation:
 
