@@ -1,5 +1,5 @@
 print('The Python interpreter was successfully configured\n\n'
-      'Loading GPU Configuration\n')
+      'Evaluating GPU Configuration\n')
 
 from faster_whisper import WhisperModel
 import torch
