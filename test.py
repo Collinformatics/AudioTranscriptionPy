@@ -5,7 +5,8 @@ from faster_whisper import WhisperModel
 import torch
 
 # Display device usage
-model = WhisperModel("base", device="cuda")
+device = "cuda" if torch.cuda.is_available() else "CPU"
+model = WhisperModel("base", device=device)
 print("Model Device:", model.model.device)
 print("CUDA Available:", torch.cuda.is_available())
 print("CUDA Device Count:", torch.cuda.device_count())
