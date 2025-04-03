@@ -11,6 +11,7 @@ If you have an NVIDIA GPU install:
 Modules:
 
 - How you install PyTorch will depend on the computer you are using
+
   - If your computer has an NVIDIA GPU use this command:
         
         pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
