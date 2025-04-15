@@ -8,7 +8,7 @@ If you have an NVIDIA GPU install:
 
 # Installing Program:
 
-Modules:
+Install Modules:
 
 - How you install PyTorch will depend on the computer you are using
 
@@ -23,13 +23,9 @@ Modules:
 - Install the remaining modules:
 
         pip install deepmultilingualpunctuation
-    
         pip install faster-whisper
-    
         pip install PyAudio
-    
         pip install soundfile
-    
         pip install SpeechRecognition
 
 # Testing installation:
